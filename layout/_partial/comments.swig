@@ -1,4 +1,4 @@
-{% if page.comments and not is_home() %}
+{% if is_post() %}
   <div class="comments" id="comments">
     {% if theme.disqus_shortname %}
       <div id="disqus_thread">
@@ -10,7 +10,7 @@
     {% elif theme.livere_datauid %}
       <div id="lv-container" data-id="city" data-uid="{{ theme.livere_datauid }}">
         <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-      </div>  
+      </div>
     {% endif %}
   </div>
 {% endif %}

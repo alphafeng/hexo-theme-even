@@ -59,8 +59,8 @@
 
   Even.prototype.scrollToc = function () {
     var SPACING = 20;
-    var $toc = $('.post-toc');
-    var $footer = $('.post-footer');
+    var $toc = $('#post-toc');
+    var $footer = $('#post-footer');
 
     if ($toc.length) {
       var minScrollTop = $toc.offset().top - SPACING;

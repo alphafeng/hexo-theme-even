@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2015
+since: 2018
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -11,17 +11,17 @@ favicon: /favicon.ico
 # Set feed link (false | default | your feed link)
 # false: disable
 # default: use `atom.xml`, generator for `hexo-generator-feed`
-rss: default
+rss: false
 
 # ===========================================
 # Menu Settings
 # ===========================================
 menu:
   Home: /
-  # Archives: /archives/
-  # Tags: /tags
-  # Categories: /categories
-  # About: /about
+  Archives: archives/
+  Categories: categories/
+  Tags: tags/
+  About: about/
 
 # ===========================================
 # Theme Settings
@@ -42,22 +42,22 @@ copyright:
   license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>'
 
 reward:
-  enable: false
+  enable: true
   qrCode:
-    wechat:
-    alipay:
+    wechat: /image/reward/wechat.png
+    alipay: /image/reward/alipay.png
 
 # ===========================================
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: alphafeng2006@gmail.com
   stack-overflow:
   twitter:
   facebook:
   linkedin:
   google:
-  github: https://github.com/ahonn
+  github: https://github.com/alphafeng
   weibo:
   zhihu:
   douban:
@@ -85,7 +85,7 @@ google_analytics:
 google_verification:
 
 # Disqus
-disqus_shortname:
+disqus_shortname: alphafeng
 
 #Changyan
 changyan:
