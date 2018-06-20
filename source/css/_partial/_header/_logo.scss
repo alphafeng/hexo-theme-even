@@ -9,6 +9,11 @@
     font-size: $logo-font-size;
     font-family: $logo-font-family;
   }
+  .subtitle {
+    font-size: $subtitle-font-size;
+    font-family: $subtitle-font-family;
+    margin: 5px 0px;
+  }
 }
 
 @include max-screen() {
