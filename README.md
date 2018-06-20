@@ -11,8 +11,8 @@ fork from[hexo-theme-even](https://github.com/ahonn/hexo-theme-even)
 
 ## Feature
 - 简洁风格，快速文章导航
-- 支持 Fancybox
-- 版权信息，自定义许可协议
+- 支持 Fancybox 图片浏览
+- 自适应移动端浏览
 - 文章打赏，添加二维码
 
 ## Modifies
@@ -35,5 +35,5 @@ $ git clone https://github.com/ahonn/hexo-theme-even themes/even
 theme: even
 ```
 
-更多主题设置，查看 [Document](https://github.com/alphafeng/hexo-theme-even/wiki)
+更多主题设置，查看 [Document](https://github.com/ahonn/hexo-theme-even/wiki)
 
