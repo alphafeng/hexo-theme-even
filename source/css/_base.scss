@@ -69,13 +69,14 @@ a {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0 auto 0 200px;
   width: $global-body-width;
 }
 
 @include max-screen() {
   .container {
     width: 100%;
+    margin: 0 auto;
     box-shadow: -1px -5px 5px $gray;
   }
 }

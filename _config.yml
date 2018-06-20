@@ -51,13 +51,13 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-  email: # alphafeng2006@gmail.com
+  email: alphafeng2006@gmail.com
   stack-overflow:
   twitter:
   facebook:
   linkedin:
   google:
-  github: # https://github.com/alphafeng
+  github: https://github.com/alphafeng
   weibo:
   zhihu:
   douban:
@@ -85,7 +85,7 @@ google_analytics:
 google_verification:
 
 # Disqus
-disqus_shortname: # alphafeng
+disqus_shortname: alphafeng
 
 #Changyan
 changyan:

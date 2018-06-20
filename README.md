@@ -37,3 +37,5 @@ theme: even
 
 更多主题设置，查看 [Document](https://github.com/ahonn/hexo-theme-even/wiki)
 
+注：可以在layout/_partial/head.swig将{% include "../_script/push.swig" %}注释掉，不然可以会引起js加载报错。
+
