@@ -19,16 +19,17 @@
     </header>
 
     <div class="post-content">
-        {% set excerpt = '<p>' + "如题..." + '</p>' %}
         {% if post.description %}
-          {% set excerpt = '<p>' + post.description + '</p>' %}
+          {% set excerpt = post.description %}
         {% elif post.excerpt %}
           {% set excerpt = post.excerpt %}
         {% endif %}
 
+        {% if excerpt %}
         {{ excerpt }}
         <div class="read-more">
           <a href="{{ url_for(post.path) }}" class="read-more-link">{{ __('posts.readmore') }}</a>
         </div>
+        {% endif %}
     </div>
 {% endmacro %}
